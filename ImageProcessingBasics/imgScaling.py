@@ -6,7 +6,7 @@ By default, interpolation method used is cv2.INTER_LINEAR for all resizing purpo
 import cv2
 import numpy as np
 
-img = cv2.imread("image.png") #get the image
+img = cv2.imread("media/image.png") #get the image
 
 height, width = img.shape[:2]
 resize = cv2.resize(img,(width/4, height/4), interpolation = cv2.INTER_CUBIC)

@@ -3,7 +3,7 @@ import numpy as np
 
 BLUE = [255,0,0]
 
-img = cv2.imread('image.png')
+img = cv2.imread('media/image.png')
 
 replicate = cv2.copyMakeBorder(img,10,10,10,10,cv2.BORDER_REPLICATE)
 reflect = cv2.copyMakeBorder(img,10,10,10,10,cv2.BORDER_REFLECT)

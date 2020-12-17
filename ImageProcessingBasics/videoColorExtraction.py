@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('windmill.mp4')
+cap = cv2.VideoCapture('media/windmill.mp4')
 #print(cap.isOpened()) # False
 #print(cap.read()) # (False, None)
 while(1):

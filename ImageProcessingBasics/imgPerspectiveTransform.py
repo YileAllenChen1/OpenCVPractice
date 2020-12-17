@@ -12,7 +12,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-img = cv2.imread('image.png')
+img = cv2.imread('media/image.png')
 rows,cols,ch = img.shape
 
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])

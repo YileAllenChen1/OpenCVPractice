@@ -7,7 +7,7 @@ Then cv2.getAffineTransform will create a 2x3 matrix which is to be passed to cv
 import cv2
 import numpy as np
 
-img = cv2.imread('image.png')
+img = cv2.imread('media/image.png')
 rows,cols,ch = img.shape
 
 pts1 = np.float32([[50,50],[200,50],[50,200]])

@@ -18,7 +18,7 @@ Check below example which rotates the image by 90 degree with respect to center 
 """
 import cv2
 
-img = cv2.imread('image.png',0)
+img = cv2.imread('media/image.png',0)
 rows,cols = img.shape
 
 M = cv2.getRotationMatrix2D((cols/2,rows/2),90,1)

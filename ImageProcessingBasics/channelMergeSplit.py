@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image.png')
+img = cv2.imread('media/image.png')
 b,g,r = cv2.split(img)
 merged = cv2.merge((b,g,r))
 

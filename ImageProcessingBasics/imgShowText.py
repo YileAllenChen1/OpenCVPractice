@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-image=cv2.imread('image.png', cv2.IMREAD_COLOR) #Load the image
+image=cv2.imread('media/image.png', cv2.IMREAD_COLOR) #Load the image
 
 # define text properties
 fontface = cv2.FONT_HERSHEY_SIMPLEX

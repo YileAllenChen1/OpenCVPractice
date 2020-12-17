@@ -1,6 +1,6 @@
 import cv2
 
-img=cv2.imread('image.png',cv2.IMREAD_COLOR)
+img=cv2.imread('media/image.png',cv2.IMREAD_COLOR)
 
 result = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) # HLS, HSV, YCrCb, ....
 cv2.imshow("CvtColor", result)
