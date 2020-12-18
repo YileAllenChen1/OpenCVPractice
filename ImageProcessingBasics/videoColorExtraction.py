@@ -1,9 +1,9 @@
-# Detect red color in a video
+# Detect blue color in a video
 
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('media/windmill.mp4')
+cap = cv2.VideoCapture('media/runeDemo.mp4')
 #print(cap.isOpened()) # False
 #print(cap.read()) # (False, None)
 while(1):
@@ -15,11 +15,11 @@ while(1):
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     # define red region in HSV space
-    lower_red = np.array([170,50,50])
-    upper_red = np.array([180,255,255])
+    lower_blue = np.array([110,50,50])       # red: 170
+    upper_blue = np.array([130,255,255])     # red: 180
 
     # get blue portions based on defined threshold
-    mask = cv2.inRange(hsv, lower_red, upper_red)
+    mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
     res = cv2.bitwise_and(frame,frame, mask= mask)
 
