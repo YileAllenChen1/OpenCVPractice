@@ -19,9 +19,11 @@ Some examples taken from [here](https://opencv-python-tutroals.readthedocs.io/en
    - Add border to image
    - Image face detection
 
-3. VideoProcessinBasics:
+3. VideoProcessingBasics:
    - Canny Algorithm
    - Video face detection
    - Video good features to track
    - Video optical flow
-   
+
+4. ObjectTracking:
+   -   
