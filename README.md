@@ -25,5 +25,4 @@ Some examples taken from [here](https://opencv-python-tutroals.readthedocs.io/en
    - Video good features to track
    - Video optical flow
 
-4. ObjectTracking:
-   -   
+4. ObjectTracking: 
