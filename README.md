@@ -22,4 +22,6 @@ Some examples taken from [here](https://opencv-python-tutroals.readthedocs.io/en
 3. VideoProcessinBasics:
    - Canny Algorithm
    - Video face detection
+   - Video good features to track
+   - Video optical flow
    
